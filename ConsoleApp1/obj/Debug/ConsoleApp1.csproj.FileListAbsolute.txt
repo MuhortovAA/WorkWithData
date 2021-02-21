@@ -1,0 +1,10 @@
+C:\Users\xbest\source\repos\MuhortovAA\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\xbest\source\repos\MuhortovAA\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\xbest\source\repos\MuhortovAA\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\xbest\source\repos\MuhortovAA\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\xbest\source\repos\MuhortovAA\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\xbest\source\repos\MuhortovAA\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\xbest\source\repos\MuhortovAA\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\xbest\source\repos\MuhortovAA\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\xbest\source\repos\MuhortovAA\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\xbest\source\repos\MuhortovAA\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
