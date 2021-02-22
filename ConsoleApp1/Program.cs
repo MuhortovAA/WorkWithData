@@ -1,4 +1,5 @@
-﻿using ConsoleApp1.Model;
+﻿using AutoMapper;
+using ConsoleApp1.Model;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -14,6 +15,16 @@ namespace ConsoleApp1
 
 		static void Main(string[] args)
 		{
+			IRepository<User> repo = new UserRepository();
+			// Создание конфигурации сопоставления
+			var config = new MapperConfiguration(cfg => cfg.CreateMap<User, IndexUserViewModel>());
+			// Настройка AutoMapper
+			var mapper = new Mapper(config);
+			// сопоставление
+			var users = mapper.Map<List<IndexUserViewModel>>(repo.GetAll());
+
+
+
 			DataService service = new DataService();
 			string result = "";
 			var collection = new Dictionary<int, IEnumerable<int>>();
@@ -34,7 +45,7 @@ namespace ConsoleApp1
 			foreach (var item in collection)
 			{
 				
-				Console.WriteLine(item);
+				Console.WriteLine(item.);
 			}
 		}
 
